@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>E-Book</title>
+
+	<!-- FONST AWESOME CDN LINK -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"/>
+
+	<!-- BOOTSTRAP CSS CDN LINK -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/4.6.1/css/bootstrap.min.css"/>
+
+	<!-- CUSTOM CSS FILE LINK -->
+	<link rel="stylesheet" type="text/css" href="assets/css/style.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+	<link rel="stylesheet" type="text/css" href="assets/css/ebook.css">
+
+</head>
+<body style="background: #fff;">
+
+	<div class="wrapper">
+
+		<!-- HEADER SECTION START -->
+		<section class="header-section">
+			<div class="topBar d-flex justify-content-between align-items-center">
+				 <div class="top-left">
+				 	<img class="icon-size d-none d-md-inline-block" src="assets/img/search.png" alt="">
+				 	<i class="fa fa-bars d-md-none mMenuOpener"></i>
+				 </div>
+				 <div class="top-middle">
+				 	<img src="assets/img/logo.webp">
+				 </div>
+				 <div class="top-right">
+				 	<ul class="d-flex list-unstyled">
+				 		<li><img class="icon-size d-md-none" src="assets/img/search.png" alt=""></li>
+				 		<li><img class="icon-size d-none d-md-inline-block" src="assets/img/user.png" alt=""></li>
+				 		<li><img class="icon-size" src="assets/img/cart2.png" alt=""></li>
+				 	</ul>
+				 	
+				 	
+				 	
+
+				 </div>
+			</div>
+
+			<nav class="navbar navbar-expand-md navbar-dark d-none d-md-block ">
+				<ul class="navbar-nav d-flex justify-content-center align-items-center mx-auto">
+					<li><a href="">About Ross</a></li>
+					<li class="dropdown">
+						<a href="">Shop</a>
+						<span class="fa fa-angle-down">
+						</span>
+						<div class="dropdownitem">
+							<ul>
+								<li><a href="">Custom Plan/App</a></li>
+								<li><a href="">E-Book</a></li>
+							</ul>
+						</div>	
+					</li>
+					<li><a href="">Blog</a></li>
+					<li><a href="">Transformation</a></li>
+					<li><a href="">Weekly Workout</a></li>
+
+
+				</ul>
+			</nav>
+		</section>
+		<!-- HEADER SECTION END -->
+
+		<!-- MOBILE MENU START -->
+		<section class="mobile-menu ">
+			<span class="m-navClose">
+				<i class="fa fa-times"></i>
+			</span>
+
+			<div class="m-nav-tabs">
+				<div class="m-nav-tab1 m-tab">
+					<div class="tab-heading">
+						<h1>Menu</h1>
+					</div>
+					<ul>
+						<li><a href="">ABOUT ROSS</a></li>
+						<li>
+							<a href="">Shop</a>
+							<i class="fa fa-angle-right shop-opener"></i>
+						</li>
+						<li><a href="">Blog</a></li>
+						<li><a href="">Transformation</a></li>
+						<li><a href="">Weekly workout</a></li>
+					</ul>
+				</div>
+
+				<div class="m-nav-tab2 m-tab">
+					<div class="tab-heading">
+						<i class="fa fa-angle-left shop-close"></i>
+						<h1>Shop</h1>
+					</div>
+					<ul>
+						<li><a href="">Custom Plans/App</a></li>
+						<li><a href="">E-Books</a></li>
+					</ul>
+				</div>
+			</div>
+
+			<div class="m-nav-footer">
+				<ul class="reg-link list-unstyled d-flex align-items-center ">
+					<li><a href="">Sign In</a></li>
+					<li><a href="">Sign Up</a></li>
+				</ul>
+				<div class="social-link">
+					<ul class="list-unstyled d-flex ">
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+						<li><a href=""><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+
+		</section>
+		<!-- MOBILE MENU END -->
+
+		<!-- E BOOK HEADING START -->
+		<section class="ebook-heading">
+			<div class="e-heading">
+				<h1>2020 BULKING AND CUTTING PLANS</h1>
+				<div class="sort dropdown">
+					<div class="sortedby " data-toggle="dropdown">
+						<h6>Sort by: <span>Featured</span></h6>
+						<i class="fa fa-angle-down"></i>
+					</div>
+
+					<div class="sort-list dropdown-menu">
+						<div class="sort-item">
+							<input id="feature"  type="checkbox" name="">
+							<label for="feature">Featured</label>
+						</div>
+
+						<div class="sort-item">
+							<input id="bestselling"  type="checkbox" name="">
+							<label for="bestselling">Best Selling</label>
+						</div>
+
+						<div class="sort-item">
+							<input id="z-a"  type="checkbox" name="">
+							<label for="z-a">Alphabetically Z-A</label>
+						</div>
+
+						<div class="sort-item">
+							<input id="a-z"  type="checkbox" name="">
+							<label for="a-z">Alphabetically A-Z</label>
+						</div>
+
+						<div class="sort-item">
+							<input id="l-h"  type="checkbox" name="">
+							<label for="l-h">Price low to high</label>
+						</div>
+
+						<div class="sort-item">
+							<input id="h-l"  type="checkbox" name="">
+							<label for="h-l">Price high to low</label>
+						</div>
+
+						<div class="sort-item">
+							<input id="n-o"  type="checkbox" name="">
+							<label for="n-o">Date , new to old</label>
+						</div>
+
+						<div class="sort-item">
+							<input id="o-n"  type="checkbox" name="">
+							<label for="o-n">Date , old to new</label>
+						</div>
+
+
+					</div>
+
+				</div>
+			</div>
+
+			<!-- FILTER SECTION -->
+			<div class="filter">
+				<p>Filter By</p>	
+				<ul>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">fitness</a>
+						<div class="dropdown-menu " aria-labelledby="dropdownMenuButton">
+						   <a class="dropdown-item" href="#">
+							   	<div class="sort-item">
+							   		<input id="bu"  type="checkbox" name="">
+									<label for="bu">goals: Bulking</label>
+							   	</div>
+							   	
+						   </a>
+
+						   <a href="" class="dropdown-item">
+						   	<div class="sort-item">
+							   		<input id="cu"  type="checkbox" name="">
+									<label for="cu">goals: Cutting</label>
+							   	</div>
+						   </a>
+         						   
+						 </div>
+					</li>
+
+					<li><a class="active" href="">Gender: man</a></li>
+					<li><a href="">Gender: women</a></li>
+					<li><a href="">plan</a></li>
+
+				</ul>			
+			</div>
+			<!-- FILTER SECTION ./ -->
+		</section>
+		<!-- E BOOK HEADING END -->
+
+
+		<!-- E-BOOK SECTION START -->
+		<section class="e-book-section">
+			
+			<div class="row ebook-slider d-flex align-items-stretch">
+
+				<div class="col-sm-6 col-md-4 p-2 d-flex align-items-stretch">
+					<div class="card-body p-2 p-md-3 slide w">	
+						<div class="slide-img slide-img1" >
+							<a href="" class="q-view nbtn">Quick View</a>
+							<img src="assets/img/sl1.jpg" width="100%" alt="">
+						</div>
+						<div class="ebook-slide-content">
+							<a href="">The 2020 Cutting Plan</a>
+							<p>£40.00</p>
+								
+							<div class="price">
+
+								<div class="select">
+									<div class="selected">
+										 <img class="flag" src="assets/img/usa.png"  alt="">
+										 <span>$ 52.31</span>
+										 <img class="updown" src="assets/img/updown.gif" alt="">
+									</div>
+								</div>
+
+							</div>
+
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 p-2  d-flex align-items-stretch">
+					<div class="card-body p-2 p-md-3 slide w-100">	
+						<div class="slide-img slide-img2" >
+							<a href="" class="q-view nbtn">Quick View</a>
+							<img class="" src="assets/img/sl2.webp" width="100%" alt="">
+						</div>
+						<div class="ebook-slide-content">
+							<a href="">The 2020 Cutting Plan</a>
+							<p>£40.00</p>
+
+							<div class="price">
+
+								<div class="select">
+									<div class="selected">
+										 <img class="flag" src="assets/img/usa.png"  alt="">
+										 <span>$ 52.31</span>
+										 <img class="updown" src="assets/img/updown.gif" alt="">
+									</div>
+								</div>
+
+							</div>
+							
+						</div>
+					</div>
+				</div>
+
+				<div class="col-sm-6 col-md-4 p-2 d-flex align-items-stretch">
+					<div class="card-body p-2 p-md-3 slide">	
+						<div class="slide-img" >
+							<a href="" class="q-view nbtn">Quick View</a>
+							<img src="assets/img/sl3.webp" width="100%" alt="">
+						</div>
+						<div class="ebook-slide-content">
+							<a href="">The 2020 Cutting Plan</a>
+							<p>£40.00</p>
+
+							<div class="price">
+
+								<div class="select">
+									<div class="selected">
+										 <img class="flag" src="assets/img/usa.png"  alt="">
+										 <span>$ 52.31</span>
+										 <img class="updown" src="assets/img/updown.gif" alt="">
+									</div>
+								</div>
+
+								<div class="disc">
+									<p>£40.00</p>
+									<div class="select">
+										<div class="selected">
+											 <img class="flag" src="assets/img/usa.png"  alt="">
+											 <span>$ 52.31</span>
+										</div>
+									</div>
+								</div>
+
+							</div>
+
+
+						</div>
+					</div>
+				</div>
+
+				
+
+			</div>
+
+		</section>
+		<!-- E-BOOK SECTION END -->     
+
+
+		<!-- FOOTER SECTION START -->
+		<section class="footer-section">
+			<div class="footer-left">
+				<a href=""><img class="footer-logo" src="assets/img/logo-sm.webp"></a>
+				<div class="social-link">
+					<ul class="list-unstyled d-flex ">
+						<li><a href=""><i class="fa fa-twitter"></i></a></li>
+						<li><a href=""><i class="fa fa-facebook"></i></a></li>
+						<li><a href=""><i class="fa fa-instagram"></i></a></li>
+						<li><a href=""><i class="fa fa-youtube"></i></a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="footer-copy">
+				<div class="left order-last order-md-first my-2">
+					<p>© 2022 DR Physique Limited. Website template by Shopify</p>
+				</div>
+				<div class="center order-first order-md-last">
+					<img src="assets/img/pay.png" alt="">
+				</div>
+				
+			</div>
+		</section>
+		<!-- FOOTER SECTION END -->
+		
+	</div>
+
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.6.0/umd/popper.min.js" integrity="sha512-BmM0/BQlqh02wuK5Gz9yrbe7VyIVwOzD1o40yi1IsTjriX/NGF37NyXHfmFzIlMmoSIBXgqDiG1VNU6kB5dBbA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.1/js/bootstrap.bundle.min.js" integrity="sha512-mULnawDVcCnsk9a4aG1QLZZ6rcce/jSzEGqUkeOLy0b6q0+T6syHrxlsAGH7ZVoqC93Pd0lBqd6WguPWih7VHA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>

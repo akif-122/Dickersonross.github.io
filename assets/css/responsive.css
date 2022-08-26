@@ -1,0 +1,826 @@
+
+@media (max-width: 1199px){
+
+/*
+===================================
+	VEDIO SECTION START
+===================================
+*/
+.vedio-section iframe{
+	width: 100%;
+	height: 700px;
+}
+
+/*
+===================================
+	VEDIO SECTION END
+===================================
+*/
+
+/*
+===================================
+	E-BOOK SECTION START
+===================================
+*/
+.e-book-section{
+	margin-top: 40px;
+
+
+}
+
+.e-book-section .e-book-section-title h2{
+	font-size: 32px;
+	color: #00AFFF;
+}
+.e-book-section .e-book-section-title p{
+	font-size: 17px;
+	font-weight: 300;
+	color: #00AFFF;
+}
+
+.ebook-slider{
+	padding: 30px 10px;
+}
+
+.pad-0{
+	padding: 0;
+}
+.pad-1{
+	padding: 0 30px;
+}
+.pad-2{
+	padding: 0 35px;
+}
+
+.ebook-slider .slide-img img{
+	width: 100%;
+	height: 350px;
+}
+.ebook-slide-content{
+	padding: 15px 15px;
+}
+
+
+
+.slideLast{
+	padding: 15px;
+}
+
+.slideLastContent{
+	height: 440px;
+	padding: 0;
+
+}
+
+/*
+===================================
+	E-BOOK SECTION END
+===================================
+*/
+
+/*
+===================================
+	ABOUT SECTION START
+===================================
+*/
+.about-section{
+	padding: 30px 20px;
+	margin-top: 40px;
+}
+
+.about-section .about-content{
+	padding: 20px 40px;
+}
+
+
+/*
+===================================
+	ABOUT SECTION END
+===================================
+*/
+
+}
+
+@media (max-width: 991px){
+
+.nbtn{
+	font-size: 14px;
+	padding: 8px 35px;
+}
+
+
+.section-title h2{
+	font-size: 28px;
+}
+.section-title p{
+	font-size: 18px;
+}
+
+
+
+
+/*
+====================================
+	HEADER SECTION START
+====================================
+*/
+.header-section{
+	padding: 20px 40px;
+}
+
+.header-section .topBar .top-left i{
+	font-size: 22px;
+	cursor: pointer;
+}
+.header-section .topBar .top-middle img{
+	width: 280px;
+}
+.header-section .topBar .top-right a{
+	font-size: 22px;
+
+}
+.header-section .navbar{
+	margin-top: 20px;
+}
+.header-section .navbar ul li{
+	font-size: 15px;
+}
+.header-section .navbar ul li a{
+	font-size: 15px;
+
+}
+
+
+.header-section .navbar ul li .dropdownitem ul li a{
+	font-size: 12px;
+}
+
+
+/*
+====================================
+	HEADER SECTION END
+====================================
+*/
+
+/*
+====================================
+	HERO SECTION START
+====================================
+*/
+.hero-section{
+	padding: 0 0px;
+}
+
+
+
+/*
+====================================
+	HERO SECTION END
+====================================
+*/
+
+
+
+/*
+===================================
+	TRANING SECTION START
+===================================
+*/
+.training-section .training-content{
+	padding: 30px 20px;
+}
+
+
+/*
+===================================
+	TRANING SECTION END
+===================================
+*/
+
+/*
+===================================
+	RESULT SECTION START
+===================================
+*/
+.result-section .result-content{
+	padding: 20px 10px;
+}
+/*
+===================================
+	RESULT SECTION END
+===================================
+*/
+
+/*
+===================================
+	VEDIO SECTION START
+===================================
+*/
+.vedio-section iframe{
+	width: 100%;
+	height: 550px;
+}
+
+/*
+===================================
+	VEDIO SECTION END
+===================================
+*/
+/*
+===================================
+	E-BOOK SECTION START
+===================================
+*/
+.e-book-section{
+	margin-top: 40px;
+
+
+}
+
+.e-book-section .e-book-section-title h2{
+	font-size: 32px;
+	color: #00AFFF;
+}
+.e-book-section .e-book-section-title p{
+	font-size: 17px;
+	font-weight: 300;
+	color: #00AFFF;
+}
+
+.ebook-slider{
+	padding: 30px 10px;
+}
+
+/*.ebook-slider .slide-img .q-view{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	color: #fff;
+	background: #00AFFF;
+	opacity: 0;
+	pointer-events: none;
+	transition: all 0.5s linear;
+}*/
+
+.pad-0{
+	padding: 0;
+}
+.pad-1{
+	padding: 0 40px;
+}
+.pad-2{
+	padding: 0 50px;
+}
+
+.ebook-slider .slide-img img{
+	width: 100%;
+	height: 400px;
+}
+.ebook-slide-content{
+	padding: 15px 15px;
+}
+
+
+
+.slideLast{
+	padding: 15px;
+}
+
+.slideLastContent{
+	height: 490px;
+	padding: 0;
+
+}
+
+/*
+===================================
+	E-BOOK SECTION END
+===================================
+*/
+
+/*
+===================================
+	BANNER SECTION START
+===================================
+*/
+.banner-section .banner{
+	height: 250px;
+	margin-bottom: 40px;
+}
+
+
+/*
+===================================
+	BANNER SECTION END
+===================================
+*/
+
+
+/*
+===================================
+	CART SECTION START
+===================================
+*/
+
+
+.cart-section .cart-contianer{
+	width: 80%;
+}
+
+/*
+===================================
+	CART SECTION END
+===================================
+*/
+
+
+}
+
+@media (max-width: 767px){
+/*
+===================================
+	CART SECTION START
+===================================
+*/
+.cart-section{
+	display: none !important;
+
+}
+
+.cart-section .cart-contianer{
+	width: 95%;
+}
+
+/*
+===================================
+	CART SECTION END
+===================================
+*/
+/*
+===================================
+	MOBILE MENU SECTION START
+===================================
+*/
+.mobile-menu{
+	position: fixed;
+	top: 110%;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+	background: #000000;
+	padding: 10px;
+	z-index: 10;
+	overflow: hidden;
+	display: block;
+	pointer-events: auto;
+	opacity: 1;
+}
+.mobile-menu .m-navClose{
+	display: inline-block;
+	margin-bottom: 30px;
+	cursor: pointer;
+
+}
+.mobile-menu .m-navClose i{
+	font-size: 24px;
+
+	color: #00AFFF;
+}
+.mobile-menu .m-nav-tabs{
+	width: 100%;
+	display: flex;
+	padding: 40px;
+	position: relative;
+
+}
+
+.shop-close{
+	font-size: 24px;
+	color: #00AFFF;
+	padding: 3px 5px;
+	position: absolute;
+	left: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	cursor: pointer;
+}
+.mobile-menu .m-nav-tabs .m-tab .tab-heading{
+	padding: 10px;
+	padding-left: 50px;
+	border-bottom: 3px solid #fff;
+	margin-bottom: 20px;
+	position: relative;
+}
+.mobile-menu .m-nav-tabs .m-tab .tab-heading h1{
+	font-size: 32px;
+	color: #00AFFF;
+
+}
+
+.mobile-menu .m-nav-tabs .m-tab ul{
+	list-style: none;
+	padding-left: 50px;
+	padding-right: 20px;
+}
+.mobile-menu .m-nav-tabs .m-tab ul li{
+	display: flex;
+	justify-content: space-between;
+	color: #00AFFF;
+}
+.mobile-menu .m-nav-tabs .m-tab ul li i{
+	font-size: 24px;
+	padding: 3px 5px;
+	width: 30px;
+	text-align: center;
+	cursor: pointer;
+	display: inline-block;
+	margin-left: 5px;
+}
+
+.mobile-menu .m-nav-tabs .m-tab ul li a{
+	width: 100%;
+	display: block;
+	font-size: 17px;
+	text-transform: uppercase;
+	padding: 5px;
+	color: #00AFFF;
+}
+.mobile-menu .m-nav-tabs .m-tab ul li a:hover{
+	opacity: 0.8;
+}
+.mobile-menu .m-nav-tabs .m-tab{
+	width: 100%;
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 0;
+}
+.mobile-menu .m-nav-tabs .m-nav-tab2{
+	left: 105%;
+}
+
+.m-nav-footer{
+	position: absolute;
+	bottom: 20px;
+	left: 50px;
+	padding: 10px;
+	width: 100%;
+}
+
+.m-nav-footer .reg-link li a{
+	font-size: 16px;
+	color: #00AFFF;
+	margin-right: 10px;
+}
+.m-nav-footer .reg-link li a:hover{
+	opacity: 0.8;
+}
+
+.m-nav-footer .social-link ul li  a{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 33px;
+	height: 33px;
+	border-radius: 50%;
+	border: 1px solid #00AFFF;
+	color: #00AFFF;
+	font-size: 14px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+ .m-nav-footer .social-link ul li  a:hover{
+	opacity: 0.8;
+}
+
+
+
+
+
+
+
+
+
+/*
+===================================
+	MOBILE MENU SECTION END
+===================================
+*/
+
+/*
+===================================
+	VEDIO SECTION START
+===================================
+*/
+.vedio-section iframe{
+	width: 100%;
+	height: 400px;
+}
+
+/*
+===================================
+	VEDIO SECTION END
+===================================
+*/
+/*
+===================================
+	E-BOOK SECTION START
+===================================
+*/
+.e-book-section{
+	margin-top: 30px;
+
+
+}
+
+
+.ebook-slider{
+	padding: 20px 10px;
+}
+
+
+.pad-0{
+	padding: 0;
+}
+.pad-1{
+	padding: 0 20px;
+}
+.pad-2{
+	padding: 0 25px;
+}
+
+.ebook-slider .slide-img img{
+	width: 100%;
+	height: 300px;
+}
+.ebook-slide-content{
+	padding: 15px 10px;
+}
+
+.ebook-slide-content a{
+	font-size: 14px;
+}
+.ebook-slide-content p{
+	font-size: 13px;
+
+}
+
+
+.slideLast{
+	padding: 10px;
+}
+
+.slideLastContent{
+	height: 390px;
+	padding: 0;
+
+}
+.owl-stage{
+	padding-left: 0 !important;
+}
+
+
+.slideLastContent .slide-text p{
+	font-size: 13px;
+}
+.slideLastContent .slide-text  h3{
+	font-size: 18px;
+}
+.ebook-slider .slide-img .q-view{
+	display: none !important;
+	
+}
+/*
+===================================
+	E-BOOK SECTION END
+===================================
+*/
+
+/*
+===================================
+	BANNER SECTION START
+===================================
+*/
+.banner-section .banner{
+	height: 200px;
+	margin-bottom: 40px;
+}
+
+
+/*
+===================================
+	BANNER SECTION END
+===================================
+*/
+
+.footer-copy{
+	background: #292929;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.footer-copy div{
+	width: 100%;
+	text-align: center;
+
+}
+
+}
+
+@media (max-width: 575px){
+
+
+.nbtn{
+	font-size: 13px;
+	padding: 7px 25px;
+	border-radius: 5px;
+}
+
+.icon-size{
+	width: 25px;
+}
+
+
+.section-title h2{
+	font-size: 20px;
+	margin-bottom: 10px;
+}
+.section-title p{
+	font-size: 14px;
+}
+/*
+====================================
+	HEADER SECTION START
+====================================
+*/
+.header-section{
+	background: #000000;
+	color: #00AFFF;
+	padding: 15px 10px;
+}
+
+.header-section .topBar .top-left i{
+	font-size: 18px;
+	cursor: pointer;
+}
+.header-section .topBar .top-middle img{
+	width: 180px;
+}
+.header-section .topBar .top-right a{
+	font-size: 18px;
+	margin-right: 5px;
+}
+/*
+====================================
+	HEADER SECTION END
+====================================
+*/
+
+/*
+===================================
+	VEDIO SECTION START
+===================================
+*/
+.vedio-section iframe{
+	width: 100%;
+	height: 230px;
+}
+
+/*
+===================================
+	VEDIO SECTION END
+===================================
+*/
+/*
+===================================
+	E-BOOK SECTION START
+===================================
+*/
+.e-book-section{
+	margin-top: 40px;
+
+
+}
+
+.e-book-section .e-book-section-title h2{
+	font-size: 22px;
+}
+.e-book-section .e-book-section-title p{
+	font-size: 15px;
+
+}
+
+/*
+===================================
+	E-BOOK SECTION END
+===================================
+*/
+
+/*
+===================================
+	ABOUT SECTION START
+===================================
+*/
+.about-section{
+	padding: 20px 10px;
+	margin-top: 30px;
+}
+
+.about-section .about-content{
+	row-gap: 5px;
+	padding: 20px 10px;
+}
+
+.about-section .about-content h2{
+	font-size: 23px;
+}
+.about-section .about-content h5{
+	font-size: 19px;
+}
+.about-section .about-content p{
+	font-size: 13px;
+}
+
+.about-img{
+	height: 480px;
+	overflow: hidden;
+}
+/*
+===================================
+	ABOUT SECTION END
+===================================
+*/
+
+
+/*
+===================================
+	FOOTER SECTION START
+===================================
+*/
+.footer-section .footer-left{
+	padding: 10px 10px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+.footer-section .footer-left .footer-logo{
+	width: 130px;
+	margin-bottom: 10px;
+}
+
+
+.footer-copy{
+	background: #292929;
+	padding: 20px 10px;
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+.footer-copy div{
+	width: 100%;
+	text-align: center;
+
+}
+.footer-copy .left p{
+	font-size: 14px;
+	color: #fff;
+	white-space: normal;
+}
+/*
+===================================
+	FOOTER SECTION END
+===================================
+*/
+
+
+/*
+===============================
+	BLOG HEADING START
+===============================
+*/
+.blog-heading{
+	padding: 2px;
+	margin-top: 15px;
+	
+}
+.blog-heading h2{
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #00AFFF;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+/*
+===============================
+	BLOG HEADING END
+===============================
+*/
+
+
+}

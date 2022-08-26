@@ -1,0 +1,225 @@
+.ebook-heading{
+	background: #000000;
+}
+
+.ebook-heading{
+	background: #000000;
+	padding: 10px 100px;
+}
+
+.ebook-heading .e-heading{
+	border-bottom: 2px solid #fff;
+}
+.ebook-heading .e-heading h1{
+	font-size: 35px;
+	color: #00AFFF;
+	margin-top: 10px;
+}
+
+.ebook-heading .e-heading .sort{
+	margin-left: auto;
+	width: 170px;
+	position: relative;
+	margin-bottom: 20px;
+}
+.ebook-heading .e-heading .sort .sortedby{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 170px;
+	background: #00AFFF;
+	margin-left: auto;
+	color: #fff;
+	padding: 7px 7px;
+	border-radius: 4px;
+	cursor: pointer;
+
+
+}
+
+.ebook-heading .e-heading .sort .sortedby h6{
+	font-size: 13px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.ebook-heading .e-heading .sort .sortedby i{
+	font-size: 17px;
+}
+
+.ebook-heading .e-heading .sort .sort-list{
+	background: #fff;
+	border-radius: 5px;
+	padding: 7px;
+	position: absolute;
+	width: 100%;
+	top: 114%;
+
+}
+
+
+.ebook-heading .e-heading .sort .sort-list .sort-item{
+	display: flex;
+	align-items: center;
+	cursor: pointer;
+	
+}
+.ebook-heading .e-heading .sort .sort-list .sort-item input{
+	width: 20px;
+	cursor: pointer;
+
+}
+.ebook-heading .e-heading .sort .sort-list .sort-item label{
+	font-size: 13px;
+	margin-left: 5px;
+	margin-top: 5px;
+	cursor: pointer;
+
+	padding: 0;
+}
+
+
+.filter{
+	display: flex;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 10px;
+}
+.filter p{
+	font-size: 13px;
+	color: #00AFFF;
+	text-transform: uppercase;
+	font-weight: 500;
+	margin-right: 10px;
+
+}
+
+.filter ul{
+	display: flex;
+	align-items: center;
+	list-style: none;
+	flex-wrap: wrap;
+}
+
+.filter ul li{
+	margin: 10px 7px;
+}
+.filter ul li .dropdown-menu a{
+	background: transparent;
+	margin: 0;
+}
+.filter ul li .dropdown-menu a:hover{
+	color: #333;
+	background: transparent;
+
+}
+.filter ul li .dropdown-menu a .sort-item{
+	display: flex;
+	align-items: center;
+}
+.filter ul li .dropdown-menu a .sort-item label{
+	margin: 0;
+	margin-left: 5px;
+	font-weight: 400;
+	font-size: 12px;
+}
+
+.filter ul li a{
+	padding: 7px 10px;
+	background: #ECECEC;
+	color: #00AFFF;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.filter ul li a.active,
+.filter ul li a:hover{
+	color: #ECECEC;
+	background: #00AFFF;
+}
+
+.slide{
+	background: #000;
+	margin: 0 0 !important;
+	width: 100%;
+}
+.slide .slide-img.slide-img2 img{
+	width: 75%;
+	margin: auto;
+	display: block;
+}
+
+.slide .slide-img.slide-img1 img{
+	width: 85%;
+	margin: auto;
+	display: block;
+}
+
+
+
+@media (max-width: 991px){
+.slide .slide-img  img{
+	height: 250px;
+}
+
+.ebook-heading .e-heading h1{
+	font-size: 32px;
+}
+
+}
+
+
+@media (max-width: 767px){
+.slide .slide-img  img{
+	height: 300px;
+}
+
+.ebook-heading{
+	padding: 10px 20px;
+}
+
+.ebook-heading .e-heading h1{
+	font-size: 28px;
+}
+
+}
+
+
+@media (max-width: 575px){
+.slide .slide-img  img{
+	height: 400px;
+}
+
+.ebook-heading .e-heading h1{
+	font-size: 22px;
+}
+.ebook-heading{
+	padding: 10px 10px;
+}
+
+.filter ul li{
+	margin: 8px 3px;
+}
+
+
+.filter ul li a{
+	padding: 6px 8px;
+	background: #ECECEC;
+	color: #00AFFF;
+	border-radius: 5px;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+}
+
+
+@media (max-width: 425px){
+
+.slide .slide-img  img{
+	height: 300px;
+}
+
+
+}

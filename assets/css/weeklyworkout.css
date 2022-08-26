@@ -1,0 +1,114 @@
+.weeklyworkout{
+	padding: 20px 100px;
+	margin-bottom: 50px;
+}
+
+.weeklyworkout .weeklyContent{
+	padding:  70px;
+}
+.weeklyworkout .weeklyContent h1{
+	font-size: 32px;
+    font-weight: 600;
+    text-transform: uppercase;
+    color: #00AFFF;
+    margin-bottom: 20px;
+}
+
+.weeklyworkout .weeklyContent .weeklyList h5{
+	font-size: 17px;
+	font-weight: 500;
+	color: #00AFFF;
+}
+.weeklyworkout .weeklyContent .weeklyList span{
+	font-size: 14px;
+	color: #00AFFF;
+}
+.weeklyworkout .weeklyContent .weeklyList p span,
+.weeklyworkout .weeklyContent .weeklyList p{
+	font-size: 15px;
+	color: #00AFFF;
+	margin: 10px 0;
+	font-weight: 500;
+}
+
+.weeklyworkout .weeklyContent .weeklyList a{
+	font-size: 15px;
+	text-decoration: underline;
+
+}
+
+.weeklyworkout .weeklyContent .weekly-img{
+	max-width: 850px;
+	margin: 0 auto;
+	margin-bottom: 3px;
+}
+.weeklyworkout .weeklyContent p.cmntcount{
+	font-size: 15px;
+	color: #00AFFF;
+	margin: 20px 0;
+}
+
+.weeklyworkout .weeklyContent .post-btn a{
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00AFFF;
+	font-weight: 500;
+}
+
+.weeklyworkout .weeklyContent .post-btn a:hover{
+	opacity: 0.8;
+}
+
+
+
+@media (max-width: 1199px){
+
+.weeklyworkout{
+	padding: 20px 15px;
+}
+}
+
+@media (max-width: 767px){
+
+.weeklyworkout .weeklyContent{
+	padding:  30px;
+}
+
+
+}
+
+@media (max-width: 575px){
+.weeklyworkout{
+	padding: 20px 10px;
+}
+.weeklyworkout .weeklyContent{
+	padding: 20px 10px;
+}
+
+.weeklyworkout .weeklyContent h1{
+	font-size: 22px;
+}
+
+.weeklyworkout .weeklyContent .weeklyList h5{
+	font-size: 14px;
+}
+.weeklyworkout .weeklyContent .weeklyList span{
+	font-size: 13px;
+}
+.weeklyworkout .weeklyContent .weeklyList p span,
+.weeklyworkout .weeklyContent .weeklyList p{
+	font-size: 14px;
+	margin: 5px 0;
+}
+
+.weeklyworkout .weeklyContent .weeklyList a{
+	font-size: 13px;
+
+}
+
+.weeklyworkout .weeklyContent  .post-btn a{
+	font-size: 14px;
+}
+
+}

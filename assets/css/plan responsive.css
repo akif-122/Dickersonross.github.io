@@ -1,0 +1,1010 @@
+
+@media (max-width: 1440px){
+
+/*
+=================================
+	PLAN HERO SECTION START
+=================================
+*/
+.planHero-section .planHero-text{
+	width: 90%;
+}
+/*
+=================================
+	PLAN HERO SECTION END
+=================================
+*/
+
+}
+
+
+
+@media (max-width: 1199px){
+
+/*
+=================================
+	HEADER SECTION START
+=================================
+*/
+
+.header-section .planHeader{
+	width: 98%;
+}
+.header-section .planHeader a.navbar-brand img{
+	width: 250px;
+}
+
+.header-section .planHeader #mynav ul li a{
+	font-size: 15px;
+	margin: 8px;
+}
+
+
+/*
+=================================
+	HEADER SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN HERO SECTION START
+=================================
+*/
+.planHero-section .planHero-text{
+	width: 90%;
+}
+/*
+=================================
+	PLAN HERO SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN SECTION START
+=================================
+*/
+
+.plans-section{
+	margin: 40px 0;
+	padding: 10px 20px;
+}
+.plans-section .plans-item .plans-icon img{
+	width: 80px;
+}
+.plans-section .plans-item .plans-content h4{
+	font-size: 24px;
+}
+.plans-section .plans-item .plans-content p{
+	font-size: 15px;
+}
+/*
+=================================
+	PLAN SECTION END
+=================================
+*/
+
+/*
+=================================
+	ACHIEVEMENT SECTION START
+=================================
+*/
+.achievement-section h1{
+	font-size: 40px;
+}
+
+/*
+=================================
+	ACHIEVEMENT SECTION END
+=================================
+*/
+
+/*
+=================================
+	JOIN SECTION START
+=================================
+*/
+.join-section h1{
+	font-size: 40px;
+
+}
+
+
+.join-section .join-heading{
+	width: 95%;
+
+}
+.join-section .join-heading div{
+	width: 32%;
+	margin: 1%;
+}
+.join-section .join-heading div h3{
+	font-size: 18px;
+	color: #00AFFF;
+}
+
+.join-section .join-text{
+	width: 80%;
+	margin: 50px auto;
+}
+.join-section .join-text p{
+	font-size: 17px;
+
+}
+.join-section .join-text h4{
+	font-size: 22px;
+}
+/*
+=================================
+	JOIN SECTION END
+=================================
+*/
+
+/*
+=================================
+	RECEIVE SECTION START
+=================================
+*/
+.receive-section{
+	width: 95%;
+	margin: 0px auto;
+	padding-bottom: 100px;
+}
+/*
+=================================
+	RECEIVE SECTOIN END
+=================================
+*/
+
+
+}
+
+
+
+@media (max-width: 991px){
+
+/*
+=================================
+	HEADER SECTION START
+=================================
+*/
+.header-section .planHeader a.navbar-brand img{
+	width: 340px;
+}
+
+.header-section .planHeader #mynav ul li a{
+	font-size: 15px;
+	margin: 8px;
+	display: inline-block;
+	color: #000;
+	opacity: 0.6;
+
+
+}
+.header-section .planHeader .nav-opener{
+	font-size: 23px;
+	color: #fff;
+	cursor: pointer;
+}
+.header-section .planHeader #mynav{
+	position: fixed;
+	top: 0;
+	right: -100%;
+	width: 280px;
+	height: 100vh;
+	background: #fff;
+	z-index: 100;
+}
+.header-section .planHeader #mynav .navClose{
+	display: inline;
+	padding: 10px;
+	font-size: 24px;
+	margin-right: 10px;
+	cursor: pointer;
+}
+.header-section .planHeader #mynav ul{
+	margin-top: 60px;
+	padding-left: 10px;
+}
+.header-section .planHeader #mynav ul li a:after{
+	background: #000;
+	opacity: 0;
+
+
+}
+
+.header-section .planHeader #mynav ul li a.active{
+	color: #000;
+	opacity: 0.9
+}
+
+/*
+=================================
+	HEADER SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN HERO SECTION START
+=================================
+*/
+.planHero-section .planHero-text{
+	width: 100%;
+	margin: 20px auto;
+	padding: 10px 20px;
+
+
+
+}
+.planHero-section .planHero-text h1{
+	font-size: 32px;
+	margin: 110px 0px;
+	margin-bottom: 30px;
+}
+
+.planHero-section .planHero-text a{
+	font-size: 30px;
+
+}
+/*
+=================================
+	PLAN HERO SECTION END
+=================================
+*/
+/*
+=================================
+	PLAN SLIDER SECTION START
+=================================
+*/
+.plan-slider{
+	margin: 80px 0;
+}
+.plan-slider .plan-slider-heading h1{
+	font-size: 32px;
+	margin-top: 30px;
+	margin-bottom: 40px;
+}
+
+
+/*
+=================================
+	PLAN SLIDER SECTION END
+=================================
+*/
+
+/*
+=================================
+	ACHIEVEMENT SECTION START
+=================================
+*/
+.achievement-section{
+	width: 100%;
+	margin: 40px auto;
+	padding: 40px;
+}
+.achievement-section h1{
+	font-size: 32px;
+	color: #fff;
+	font-weight: 400;
+	margin: 20px 0;
+	margin-bottom: 40px;
+}
+
+.achievement-section h1 span{
+	color: #00AFFF;
+}
+/*
+=================================
+	ACHIEVEMENT SECTION END
+=================================
+*/
+
+/*
+=================================
+	CARD SECTION START
+=================================
+*/
+
+.waiting-section .plan-card,
+.plan-card-section .plan-card{
+	border-radius: 20px;
+	padding: 30px 20px;
+	padding-top: 80px;
+
+}
+
+.waiting-section .plan-card .card-label,
+.plan-card-section .plan-card .card-label{
+	width: 100px;
+	height: 100px;
+	padding: 20px;
+}
+.waiting-section .plan-card .card-label h2,
+.plan-card-section .plan-card .card-label h2{
+	font-size: 18px;
+
+}
+.waiting-section .plan-card h6,
+.plan-card-section .plan-card h6{
+	font-size: 16px;
+}
+.waiting-section .plan-card h3,
+.plan-card-section .plan-card h3{
+	font-size: 26px;
+}
+
+.waiting-section .plan-card .card-price,
+.plan-card-section .plan-card .card-price{
+	margin-top: 30px;
+}
+.waiting-section .plan-card .card-price h1,
+.plan-card-section .plan-card .card-price h1{
+	font-size: 40px;
+}
+.waiting-section .plan-card .card-price b,
+.plan-card-section .plan-card .card-price  b{
+	font-size: 24px;
+}
+.waiting-section .plan-card .card-price span,
+.plan-card-section .plan-card .card-price span{
+	font-size: 32px;
+}
+.waiting-section .plan-card h4,
+.plan-card-section .plan-card   h4{
+	background: #fff;
+	color: #000;
+	font-size: 18px;
+
+}
+.waiting-section .plan-card a.card-btn,
+.plan-card-section .plan-card a.card-btn{
+	background: #00AFFF;
+	border: 3px solid #00AFFF;
+	border-radius: 70px;
+	font-size: 16px;
+	font-weight: 600;
+	color: #fff;
+	padding: 13px;
+}
+
+.waiting-section .card-list ul li,
+.plan-card-section .card-list ul li{
+	font-size: 15px;
+}
+
+/*
+=================================
+	CARD SECTION END
+=================================
+*/
+
+/*
+=================================
+	JOIN SECTION START
+=================================
+*/
+.join-section h1{
+	font-size: 32px;
+}
+
+
+.join-section .join-heading{
+	width: 100%;
+	margin: 10px auto;
+
+}
+.join-section .join-heading div{
+	width: 32%;
+	margin: 1%;
+}
+.join-section .join-heading div h3{
+	font-size: 16px;
+}
+
+.join-section .join-text{
+	width: 100%;
+	margin: 20px auto;
+	padding: 10px 20px;
+}
+
+/*
+=================================
+	JOIN SECTION END
+=================================
+*/
+
+/*
+=================================
+	RECEIVE SECTION START
+=================================
+*/
+
+.receive-section h1{
+	font-size: 32px;
+	margin-bottom: 10px;
+
+}
+
+.receive-section .tabs ul {
+	display: flex;
+	flex-direction: row;
+	border: none;
+	width: 100%;
+}
+.receive-section .tabs ul li{
+	width: 50%;
+}
+.receive-section .tabs ul li a{
+	width: 100%;
+	padding: 30px 0;
+	border-right: none;
+	border-bottom: 3px solid grey;
+	font-size: 18px;
+}
+
+
+/*
+=================================
+	RECEIVE SECTOIN END
+=================================
+*/
+
+/*
+=================================
+	FREE RECEIVE SECTION START
+=================================
+*/
+.free-receive-section{
+	width: 100%;
+	padding: 10px;
+	padding-bottom: 30px;
+}
+.free-receive-section h1{
+	font-size: 32px;
+
+}
+.free-receive-section h1 span{
+	color: #00AFFF;
+}
+
+.free-receive-section .free-receive-box{
+	border: 3px solid #00AFFF;
+	padding: 10px 20px;
+	margin: 20px 0;
+}
+.free-receive-box .free-receive-text{
+	padding: 10px;
+}
+.free-receive-box .free-receive-text h4{
+	font-size: 22px;
+}
+.free-receive-box .free-receive-text p{
+	font-size: 15px;
+}
+
+.free-receive-btn{
+	font-size: 32px;
+}
+
+/*
+=================================
+	FREE RECEIVE SECTION END
+=================================
+*/
+
+/*
+=================================
+	TRAINER SECTION START
+=================================
+*/
+
+.trainer-section .trainer-heading h1{
+	font-size: 32px;
+}
+
+.trainer-section .trainer-content p{
+
+	font-size: 16px;
+}
+.trainer-section .trainer-content .tr-btn{
+	font-size: 22px;
+
+}
+/*
+=================================
+	TRAINER SECTION END
+=================================
+*/
+
+/*
+=================================
+	JOIN YOU SECTION START
+=================================
+*/
+.join-you-section h1{
+	font-size: 32px;
+	margin: 20px 0;
+}
+
+/*
+=================================
+	JOIN YOU SECTION END
+=================================
+*/
+
+/*
+=================================
+	WAITING SECTION START
+=================================
+*/
+
+.waiting-section .wait-heaing{
+	padding: 20px;
+}
+.waiting-section .wait-heaing h1{
+	font-size: 32px;
+}
+.waiting-section .wait-heaing h1 span{
+	color: #00AFFF;
+}
+.waiting-section .waiting-card-container{
+	padding: 40px 0; 
+}
+/*
+=================================
+	WAITING SECTION END
+=================================
+*/
+
+
+}
+
+@media (max-width: 767px){
+
+/*
+=================================
+	PLAN HERO SECTION START
+=================================
+*/
+.planHero-section .planHero-text{
+	padding: 10px 00px;
+
+
+
+}
+.planHero-section .planHero-text h1{
+	font-size: 28px;
+	margin: 60px 00px;
+}
+.planHero-section .planHero-text a{
+	font-size: 22px;
+	padding: 5px 20px;
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+/*
+=================================
+	PLAN HERO SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN SECTION START
+=================================
+*/
+
+.plans-section{
+	margin: 40px 0;
+	padding: 10px 100px;
+}
+.plans-section .plans-item{
+	margin: 15px 0;
+}
+.plans-section .plans-item .plans-icon img{
+	width: 100px;
+}
+.plans-section .plans-item .plans-content h4{
+	font-size: 28px;
+	font-weight: 600;
+	color: #fff;
+}
+.plans-section .plans-item .plans-content p{
+	font-size: 17px;
+
+}
+/*
+=================================
+	PLAN SECTION END
+=================================
+*/
+
+/*
+=================================
+	JOIN SECTION START
+=================================
+*/
+
+.join-section h1{
+	font-size: 28px;
+}
+
+.join-section .join-heading{
+	width: 100%;
+	margin: 20px auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 0 10px;
+}
+.join-section .join-heading div{
+	width: 100%;
+}
+.join-section .join-heading div h3{
+	font-size: 20px;
+}
+
+.join-section .join-text{
+	width: 100%;
+	margin: 20px auto;
+}
+
+/*
+=================================
+	JOIN SECTION END
+=================================
+*/
+
+/*
+=================================
+	RECEIVE SECTION START
+=================================
+*/
+
+.receive-section .tab-text h4{
+	margin-top: 10px;
+
+}
+/*
+=================================
+	RECEIVE SECTOIN END
+=================================
+*/
+
+}
+
+
+@media (max-width: 575px){
+
+/*
+=================================
+	HEADER SECTION START
+=================================
+*/
+
+.header-section .planHeader{
+	width: 100%;
+	padding: 5px 10px;
+
+}
+.header-section .planHeader a.navbar-brand img{
+	width: 230px;
+}
+
+.header-section .planHeader #mynav ul li a{
+	font-size: 15px;
+	margin: 8px;
+}
+
+
+/*
+=================================
+	HEADER SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN HERO SECTION START
+=================================
+*/
+
+.planHero-section .planHero-text h1{
+	font-size: 24px;
+	margin: 30px 0px;
+}
+.planHero-section .planHero-text a{
+	border: 2px solid #fff;
+	font-size: 15px;
+	padding: 5px 15px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+/*
+=================================
+	PLAN HERO SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN SLIDER SECTION START
+=================================
+*/
+.plan-slider{
+	margin: 40px 0;
+}
+.plan-slider .plan-slider-heading h1{
+	font-size: 24px;
+}
+
+.plan-slider  .plan-slide-content{
+	padding: 0 20px;
+}
+
+.plan-slider  .plan-slide-content .owl-nav button span{
+	font-size: 50px;
+
+}
+
+/*
+=================================
+	PLAN SLIDER SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN SECTION START
+=================================
+*/
+
+
+.plans-section{
+	margin: 40px 0;
+	padding: 10px 50px;
+}
+.plans-section .plans-item{
+	margin: 15px 0;
+}
+.plans-section .plans-item .plans-icon img{
+	width: 80px;
+}
+.plans-section .plans-item .plans-content h4{
+	font-size: 22px;
+	font-weight: 600;
+	color: #fff;
+}
+.plans-section .plans-item .plans-content p{
+	font-size: 14px;
+
+}
+/*
+=================================
+	PLAN SECTION END
+=================================
+*/
+
+/*
+=================================
+	ACHIEVEMENT SECTION START
+=================================
+*/
+.achievement-section{
+	padding: 10px;
+}
+.achievement-section h1{
+	font-size: 24px;
+	margin-bottom: 10px;
+}
+
+.achievement-section h1 span{
+	color: #00AFFF;
+}
+/*
+=================================
+	ACHIEVEMENT SECTION END
+=================================
+*/
+
+/*
+=================================
+	JOIN SECTION START
+=================================
+*/
+.join-section{
+	padding: 10px 0;
+}
+.join-section h1{
+	font-size: 24px;
+}
+.join-section h1 span{
+	color: #00AFFF;
+}
+
+.join-section .join-heading{
+	margin: 20px auto;
+	display: flex;
+}
+.join-section .join-heading div{
+	width: 100%;
+}
+.join-section .join-heading div h3{
+	font-size: 15px;
+	color: #00AFFF;
+}
+
+.join-section .join-text{
+	margin: 10px auto;
+}
+.join-section .join-text p{
+	font-size: 14px;
+
+}
+.join-section .join-text h4{
+	font-size: 20px;
+}
+/*
+=================================
+	JOIN SECTION END
+=================================
+*/
+
+/*
+=================================
+	RECEIVE SECTION START
+=================================
+*/
+.receive-section{
+	padding-bottom: 20px;
+}
+.receive-section h1{
+	font-size: 24px;
+
+}
+.receive-section .tabs{
+	margin-top: 10px;
+}
+.receive-section .tabs ul li a{
+	font-size: 14px;
+	padding: 20px 0;
+}
+
+
+.receive-section .tab-text h4{
+	font-size: 18px;
+	margin-bottom: 10px;
+
+}
+.receive-section .tab-text p{
+	font-size: 14px;
+	margin: 5px 0;
+}
+/*
+=================================
+	RECEIVE SECTOIN END
+=================================
+*/
+
+/*
+=================================
+	FREE RECEIVE SECTION START
+=================================
+*/
+.free-receive-section{
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.free-receive-section h1{
+	font-size: 24px;
+	margin-bottom: 20px;
+}
+
+
+.free-receive-section .free-receive-box{
+	border: 3px solid #00AFFF;
+	margin: 20px 0;
+}
+
+.free-receive-box .free-receive-text h4{
+	font-size: 20px;
+}
+.free-receive-box .free-receive-text p{
+	font-size: 14px;
+
+}
+
+.free-receive-btn{
+	font-size: 20px;
+	margin-top: 20px;
+}
+
+/*
+=================================
+	FREE RECEIVE SECTION END
+=================================
+*/
+
+/*
+=================================
+	TRAINER SECTION START
+=================================
+*/
+.trainer-section .trainer-heading{
+	padding: 20px 10px;
+	background: #000000;
+}
+.trainer-section .trainer-heading h1{
+	font-size: 24px;
+}
+
+.trainer-section .trainer-content{
+	width: 100%;
+	padding: 10px 10px;
+}
+.trainer-section .trainer-content p{
+	font-size: 14px;
+}
+.trainer-section .trainer-content .tr-btn{
+	font-size: 20px;
+	margin: 10px 0;
+
+}
+/*
+=================================
+	TRAINER SECTION END
+=================================
+*/
+/*
+=================================
+	JOIN YOU SECTION START
+=================================
+*/
+.join-you-section h1{
+	font-size: 24px;
+	margin: 20px 0;
+}
+
+.join-you-section .jl-container{
+	width: 100%;
+	margin: 10px auto;
+}
+/*
+=================================
+	JOIN YOU SECTION END
+=================================
+*/
+
+/*
+=================================
+	WAITING SECTION START
+=================================
+*/
+.waiting-section{
+	padding: 20px 0;
+	padding-top: 0px;
+}
+.waiting-section .wait-heaing{
+	background: #000000;
+	padding: 20px 0;
+	color: #fff;
+}
+.waiting-section .wait-heaing h1{
+	font-size: 24px;
+}
+.waiting-section .wait-heaing h1 span{
+	color: #00AFFF;
+}
+.waiting-section .waiting-card-container{
+	padding: 30px 15px; 
+}
+/*
+=================================
+	WAITING SECTION END
+=================================
+*/
+
+
+}

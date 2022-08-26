@@ -1,0 +1,749 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	scroll-behavior: smooth;
+	transition:all 0.4s ease;
+}
+
+body{
+	background: #000000;
+}
+a:hover,
+a{
+	text-decoration: none;
+}
+.wrapper{
+	overflow: hidden;
+}
+
+/*
+=================================
+	HEADER SECTION START
+=================================
+*/
+.header-section{
+	width: 100%;
+	background: #000000;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 100;
+}
+.header-section .planHeader{
+	width: 90%;
+	margin: 0 auto;
+	padding: 10px;
+}
+.header-section .planHeader a.navbar-brand img{
+	width: 340px;
+}
+
+.header-section .planHeader #mynav ul li a{
+	font-size: 15px;
+	margin: 10px;
+	color: #00AFFF;
+	position: relative;
+	transition:all 0.3s ease;
+
+
+}
+
+.header-section .planHeader #mynav ul li a:after{
+	content: '';
+	position: absolute;
+	left: 0;
+	bottom: -2px;
+	width: 50%;
+	height: 2px;
+	background: #fff;
+	opacity: 0;
+	transition: 0.3s ease;
+
+}
+
+.header-section .planHeader #mynav ul li a.active{
+	color: #fff;
+}
+.header-section .planHeader #mynav ul li a.active:after,
+.header-section .planHeader #mynav ul li a:hover:after{
+	width: 100%;
+	color: #fff;
+	opacity: 1;
+}
+
+/*
+=================================
+	HEADER SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN HERO SECTION START
+=================================
+*/
+.planHero-section{
+	background: linear-gradient( rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/plan/1.webp");
+	background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+	padding: 10px;
+
+}
+.planHero-section .planHero-text{
+	width: 80%;
+	margin: 20px auto;
+	padding: 10px 20px;
+
+
+
+}
+.planHero-section .planHero-text h1{
+	font-size: 50px;
+	font-weight: 400;
+	color: #fff;
+	margin: 110px 50px;
+	line-height: 1.5;
+}
+.planHero-section .planHero-text h1 span{
+	color: #00AFFF;
+	font-weight: 700;
+}
+.planHero-section .planHero-text a{
+	display: inline-block;
+	border: 3px solid #fff;
+	color: #fff;
+	background: #00AFFF;
+	text-transform: uppercase;
+	font-size: 34px;
+	letter-spacing: 1px;
+	padding: 8px 30px;
+	margin-top: 50px;
+	margin-bottom: 100px;
+}
+/*
+=================================
+	PLAN HERO SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN SLIDER SECTION START
+=================================
+*/
+.plan-slider{
+	margin: 80px 0;
+	z-index: 1;
+
+}
+.plan-slider .plan-slider-heading h1{
+	font-size: 50px;
+	color: #fff;
+	font-weight: 400;
+	margin-top: 50px;
+	margin-bottom: 70px;
+}
+
+.plan-slider  .plan-slide-content{
+	padding: 0 50px;
+	position: relative;
+}
+.plan-slider  .plan-slide-content .owl-nav button{
+	position: absolute;
+	background: transparent;
+	padding: 0px;
+	color: #00AFFF;
+
+}
+.plan-slider  .plan-slide-content .owl-nav button:hover{
+	background: transparent !important;
+	color: #00AFFF;
+	opacity: 0.7;
+
+}
+.plan-slider  .plan-slide-content .owl-nav button.owl-prev{
+	left: 0;
+	top: 40%;
+	transform: translateY(-50%);
+}
+.plan-slider  .plan-slide-content .owl-nav button.owl-next{
+	right: 0;
+	top: 40%;
+	transform: translateY(-50%);
+}
+.plan-slider  .plan-slide-content .owl-nav button span{
+	font-size: 80px;
+	display: inline-block;
+	line-height: 0.5;
+
+}
+
+.plan-slider  .plan-slide-content .owl-dot span {
+    width: 10px;
+    height: 10px;
+    margin: 5px 7px;
+    background: #00AFFF;
+    opacity: 0.6;
+    display: block;
+    -webkit-backface-visibility: visible;
+    transition: opacity 200ms ease;
+    border-radius: 30px;
+}
+.plan-slider  .plan-slide-content .owl-dot.active span {
+ 	opacity: 1;
+    background: #00AFFF;
+
+}
+/*
+=================================
+	PLAN SLIDER SECTION END
+=================================
+*/
+
+/*
+=================================
+	PLAN SECTION START
+=================================
+*/
+
+.plans-section{
+	margin: 40px 0;
+	padding: 10px 100px;
+}
+.plans-section .plans-item{
+	margin: 15px 0;
+}
+.plans-section .plans-item .plans-icon img{
+	width: 105px;
+}
+.plans-section .plans-item .plans-content h4{
+	font-size: 28px;
+	font-weight: 600;
+	color: #fff;
+}
+.plans-section .plans-item .plans-content p{
+	font-size: 17px;
+	color: #fff;
+	margin: 3px 0;
+	font-weight: 400;
+}
+/*
+=================================
+	PLAN SECTION END
+=================================
+*/
+
+/*
+=================================
+	ACHIEVEMENT SECTION START
+=================================
+*/
+.achievement-section{
+	width: 80%;
+	margin: 40px auto;
+	padding: 40px;
+}
+.achievement-section h1{
+	font-size: 55px;
+	color: #fff;
+	font-weight: 400;
+	margin: 20px 0;
+	margin-bottom: 40px;
+}
+
+.achievement-section h1 span{
+	color: #00AFFF;
+}
+/*
+=================================
+	ACHIEVEMENT SECTION END
+=================================
+*/
+/*
+=================================
+	CARD SECTION START
+=================================
+*/
+.plan-card-section{
+	padding: 20px 20px;
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/plan/cardbg.webp");
+	background-size: cover;
+	background-position: 50% 50%;
+	background-attachment: fixed;
+
+}
+
+.card-border{
+	border-color: #00AFFF !important;
+}
+.waiting-section .plan-card,
+.plan-card-section .plan-card{
+	position: relative;
+	border: 2px solid #fff;
+	border-radius: 20px;
+	padding: 40px 25px;
+	padding-top: 100px;
+	margin: 30px 0;
+	text-align: center;
+	background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6));
+
+}
+
+.waiting-section .plan-card .card-label,
+.plan-card-section .plan-card .card-label{
+	width: 130px;
+	height: 130px;
+	padding: 20px;
+	border-radius: 50%;
+	background: #fff;
+	color: #00AFFF;
+	position: absolute;
+	top: -57px;
+	left: 50%;
+	transform: translateX(-50%);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+.waiting-section .plan-card .card-label h2,
+.plan-card-section .plan-card .card-label h2{
+	font-size: 20px;
+	font-weight: bold;
+
+}
+.waiting-section .plan-card h6,
+.plan-card-section .plan-card h6{
+	font-size: 18px;
+	font-weight: 700;
+	color: #00AFFF;
+}
+.waiting-section .plan-card h3,
+.plan-card-section .plan-card h3{
+	font-size: 32px;
+	color: #00AFFF;
+	font-weight: 600;
+}
+
+.waiting-section .plan-card .card-price,
+.plan-card-section .plan-card .card-price{
+	margin-top: 40px;
+}
+.waiting-section .plan-card .card-price h1,
+.plan-card-section .plan-card .card-price h1{
+	font-size: 45px;
+	color: #00AFFF;
+	font-weight: 700;
+}
+.waiting-section .plan-card .card-price b,
+.plan-card-section .plan-card .card-price  b{
+	font-weight: 700;
+	font-size: 28px;
+}
+.waiting-section .plan-card .card-price span,
+.plan-card-section .plan-card .card-price span{
+	font-size: 22px;
+	font-weight: 400;
+}
+.waiting-section .plan-card h4,
+.plan-card-section .plan-card   h4{
+	background: #fff;
+	color: #000;
+	font-size: 20px;
+	padding: 4px;
+	text-transform: uppercase;
+	margin: 20px 0;
+}
+.waiting-section .plan-card a.card-btn,
+.plan-card-section .plan-card a.card-btn{
+	background: #00AFFF;
+	border: 3px solid #00AFFF;
+	border-radius: 70px;
+	font-size: 18px;
+	font-weight: 600;
+	color: #fff;
+	padding: 15px;
+}
+.waiting-section .plan-card a.card-btn:hover,
+.plan-card-section .plan-card a.card-btn:hover{
+	color: #58D5CF;
+	border: 3px solid #58D5CF;
+	background: transparent;
+
+
+}
+
+.waiting-section .plan-card small,
+.plan-card-section .plan-card small{
+	font-size: 12px;
+	color: #fff;
+	display: inline-block;
+	margin-top: 20px;
+}
+
+.waiting-section .card-list,
+.plan-card-section .card-list{
+	border: none;
+
+}
+.waiting-section .card-list ul li,
+.plan-card-section .card-list ul li{
+	list-style: none;
+	margin: 8px 0;
+	font-size: 18px;
+	color: #fff;
+}
+
+/*
+=================================
+	CARD SECTION END
+=================================
+*/
+/*
+=================================
+	JOIN SECTION START
+=================================
+*/
+.bg-white{
+	background: #fff;
+}
+.join-section{
+	padding: 20px 0;
+}
+.join-section h1{
+	font-size: 45px;
+	text-transform: uppercase;
+	font-weight: 500;
+	text-align: center;
+}
+.join-section h1 span{
+	color: #00AFFF;
+}
+
+.join-section .join-heading{
+	width: 80%;
+	margin: 40px auto;
+	display: flex;
+	justify-content: space-between;
+}
+.join-section .join-heading div{
+	width: 32%;
+	margin: 1%;
+}
+.join-section .join-heading div h3{
+	font-size: 22px;
+	color: #00AFFF;
+}
+
+.join-section .join-text{
+	width: 80%;
+	margin: 50px auto;
+}
+.join-section .join-text p{
+	font-size: 18px;
+	color: #000;
+	opacity: 0.8;
+
+}
+.join-section .join-text h4{
+	font-size: 24px;
+	color: #00AFFF;
+	margin: 20px 0;
+}
+/*
+=================================
+	JOIN SECTION END
+=================================
+*/
+/*
+=================================
+	RECEIVE SECTION START
+=================================
+*/
+.receive-section{
+	width: 80%;
+	margin: 0px auto;
+	padding-bottom: 100px;
+}
+.receive-section h1{
+	font-size: 55px;
+	font-weight: 400;
+	text-align: center;
+	margin-bottom: 40px;
+
+}
+.receive-section h1 span{
+	color: #00AFFF;
+}
+.receive-section .tabs ul {
+	display: flex;
+	flex-direction: column;
+	border: none;
+	height: 100%;
+}
+.receive-section .tabs ul li{
+	height: 50%;
+}
+.receive-section .tabs ul li a{
+	height: 100%;
+	border-right: 3px solid grey;
+	font-size: 20px;
+	font-weight: 500;
+	color: #000;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	opacity: 0.5;
+}
+.receive-section .tabs ul li a:hover,
+.receive-section .tabs ul li a.active{
+	color: #00AFFF;
+	opacity: 1;
+	border-color: #00AFFF;
+}
+
+.receive-section .tab-text h4{
+	font-size: 22px;
+	font-weight: 500;
+	color: #00AFFF;
+	margin-bottom: 20px;
+
+}
+.receive-section .tab-text p{
+	font-size: 17px;
+	color: #000;
+	opacity: 0.7;
+	margin: 10px 0;
+}
+/*
+=================================
+	RECEIVE SECTOIN END
+=================================
+*/
+/*
+=================================
+	FREE RECEIVE SECTION START
+=================================
+*/
+.free-receive-section{
+	width: 80%;
+	margin: 20px auto;
+	margin-bottom: 0;
+	padding-bottom: 50px;
+}
+.free-receive-section h1{
+	font-size: 45px;
+	font-weight: 500;
+	margin-bottom: 40px;
+	text-align: center;
+}
+.free-receive-section h1 span{
+	color: #00AFFF;
+}
+
+.free-receive-section .free-receive-box{
+	border: 3px solid #00AFFF;
+	padding: 20px 40px;
+	margin: 20px 0;
+}
+.free-receive-box .free-receive-text{
+	padding: 20px;
+}
+.free-receive-box .free-receive-text h4{
+	font-size: 24px;
+	font-weight: 700;
+	color: #00AFFF;
+}
+.free-receive-box .free-receive-text p{
+	font-size: 18px;
+
+}
+
+.free-receive-btn{
+	padding: 5px;
+	font-size: 50px;
+	text-align: center;
+	text-transform: uppercase;
+	color: #fff;
+	border: 3px solid #00AFFF;
+	background: #00AFFF;
+	margin-top: 50px;
+}
+.free-receive-btn:hover{
+	color: #00AFFF;
+	background: transparent;
+}
+/*
+=================================
+	FREE RECEIVE SECTION END
+=================================
+*/
+
+/*
+=================================
+	TRAINER SECTION START
+=================================
+*/
+.trainer-section {
+	background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../img/plan/trbg.webp");
+	background-attachment: fixed;
+	background-size: cover;
+	background-position: top;
+}
+.trainer-section .trainer-heading{
+	padding: 40px;
+	background: #000000;
+	color: #fff;
+}
+.trainer-section .trainer-heading h1{
+	font-size: 45px;
+	font-weight: 500;
+	text-align: center;
+}
+.trainer-section .trainer-heading h1 span{
+	color: #00AFFF;
+}
+
+.trainer-section .trainer-content{
+	width: 80%;
+	margin: 20px auto;
+	padding: 20px 0;
+}
+.trainer-section .trainer-content p{
+	font-weight: 600;
+	color: #fff;
+	font-size: 18px;
+}
+.trainer-section .trainer-content .tr-btn{
+	font-size: 24px;
+	color: #00AFFF;
+	text-align: center;
+	margin: 20px 0;
+
+}
+/*
+=================================
+	TRAINER SECTION END
+=================================
+*/
+
+
+/*
+=================================
+	JOIN YOU SECTION START
+=================================
+*/
+.join-you-section h1{
+	text-align: center;
+	font-size: 45px;
+	font-weight: 500;
+	color: #fff;
+	margin: 40px 0;
+}
+.join-you-section h1 span{
+	color: #00AFFF;
+}
+
+.join-you-section .jl-container{
+	width: 80%;
+	margin: 10px auto;
+}
+/*
+=================================
+	JOIN YOU SECTION END
+=================================
+*/
+
+/*
+=================================
+	WAITING SECTION START
+=================================
+*/
+.waiting-section{
+	padding: 30px;
+	padding-top: 0px;
+	background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("../img/plan/waitbg.webp");
+	background-size: cover;
+	background-position: top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+}
+.waiting-section .wait-heaing{
+	background: #000000;
+	padding: 30px;
+	color: #fff;
+}
+.waiting-section .wait-heaing h1{
+	font-size: 45px;
+	font-weight: 500;
+	text-transform: uppercase;
+	text-align: center;
+}
+.waiting-section .wait-heaing h1 span{
+	color: #00AFFF;
+}
+.waiting-section .waiting-card-container{
+	padding: 70px 0; 
+}
+/*
+=================================
+	WAITING SECTION END
+=================================
+*/
+
+/*
+=================================
+	FOOTER SECTION START
+=================================
+*/
+.footer{
+	padding: 20px ;
+	background: #F9F9F9;
+	text-align: center;
+
+}
+.footer .follow h5{
+	margin: 0;
+	font-size: 19px;
+	font-weight: 500;
+}
+.footer ul {
+	list-style: none;
+	display: flex;
+	justify-content: center;
+}
+.footer ul li a{
+	font-size: 20px;
+}
+.footer .privacy ul li a{
+	text-decoration: underline;
+	font-size: 20px;
+	font-weight: 300;
+	color: #000;
+	opacity: 0.7;
+
+}
+/*
+=================================
+	FOOTER SECTION END
+=================================
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

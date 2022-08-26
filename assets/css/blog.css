@@ -1,0 +1,228 @@
+    
+
+/*
+===============================
+	BLOG HEADING START
+===============================
+*/
+.blog-heading{
+	padding: 40px;
+}
+.blog-heading h2{
+	font-size: 30px;
+	text-transform: capitalize;
+	color: #00AFFF;
+	font-weight: 600;
+	margin-bottom: 20px;
+}
+/*
+===============================
+	BLOG HEADING END
+===============================
+*/
+
+
+
+/*
+===============================
+	BLOG CONTENT START
+===============================
+*/
+.text-b{
+	font-weight: 500;
+	margin: 20px 0;
+	font-size: 17px !important;
+}
+
+.text-500{
+	font-weight: 500 !important;
+}
+.blog-content{
+	padding: 20px 100px;
+}
+
+
+.blog-content .blog-post{
+	padding: 70px;
+	margin: 20px 0;
+}
+.blog-content .blog-post h1{
+	font-size: 32px;
+	font-weight: 600;
+	text-transform: uppercase;
+	color: #00AFFF;
+	margin-bottom: 10px;
+}
+.blog-content .blog-post p{
+	font-size: 15px;
+	font-weight: 400;
+	color: #00AFFF;
+}
+.blog-content .blog-post p a{
+	text-decoration: underline;
+	color: #00AFFF;
+}
+.blog-content .blog-post p strong{
+	font-style: italic;
+	text-shadow: 0px 0px 1px #00AFFF;
+	font-weight: 600;
+}
+.blog-content .blog-post .post1-img1{
+	max-width: 850px;
+	margin: 15px 0;
+}
+.blog-content .blog-post .post1-img1 img{
+	width: 100%;
+}
+
+.blog-content .blog-post .post1-img2{
+	max-width: 1100px;
+	margin: 20px 0;
+	margin-bottom: 40px;
+}
+.blog-content .blog-post .post1-img2 img{
+	width: 100%;
+}
+.blog-content .blog-post .post-btn{
+	margin-top: 20px;
+}
+.blog-content .blog-post .post-btn a{
+	font-size: 17px;
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #00AFFF;
+	font-weight: 500;
+}
+
+.blog-content .blog-post .post-btn a:hover{
+	opacity: 0.8;
+}
+.blog-content .blog-post ul{
+	padding-left: 30px;
+	margin: 20px 0;
+}
+.blog-content .blog-post ul li{
+	color: #00AFFF;
+	font-weight: 500;
+	font-size: 14px;
+	margin: 10px 0;
+}
+
+.blog-content .blog-post .img3{
+	margin-right: 15px;
+	margin-top: 5px;
+	float: left;
+}
+
+.post-pagination{
+	margin: 20px 0;
+}
+
+.post-pagination ul{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100%;
+	list-style: none;
+}
+
+.post-pagination ul li a{
+	font-size: 15px;
+	color: #00AFFF;
+	display: inline-block;
+	margin: 5px 10px;
+}
+.post-pagination ul li a.active,
+.post-pagination ul li a:hover{
+	opacity: 0.6;
+}
+/*
+===============================
+	BLOG CONTENT END
+===============================
+*/
+
+
+
+@media (max-width: 1199px){
+
+.blog-content{
+	padding: 20px 0px;
+}
+
+}
+
+
+@media (max-width: 991px){
+.blog-content .blog-post .post1-img1,
+.blog-content .blog-post .post1-img2{
+	max-width: 100%;
+	
+}
+
+}
+
+
+@media (max-width: 767px){
+.blog-content .blog-post{
+	padding: 20px;
+	margin: 20px 0;
+}
+.text-b{
+	font-size: 14px !important;
+}
+
+.blog-content .blog-post h1{
+	font-size: 28px;
+}
+.blog-content .blog-post p{
+	font-size: 14px;
+}
+.blog-content .blog-post ul li{
+	font-size: 13px;
+}
+.blog-content .blog-post .post-btn a{
+	font-size: 16px;
+}
+
+}
+
+@media (max-width: 575px){
+.blog-content .blog-post{
+	padding: 20px 10px;
+	margin: 20px 0;
+}
+.text-b{
+	font-size: 13px !important;
+}
+
+.blog-content .blog-post h1{
+	font-size: 22px;
+}
+.blog-content .blog-post p{
+	font-size: 13px;
+}
+.blog-content .blog-post p strong{
+	font-weight: 500;
+}
+.blog-content .blog-post ul{
+	padding-left: 15px;
+}
+.blog-content .blog-post ul li{
+	font-size: 13px;
+}
+.blog-content .blog-post .post-btn a{
+	font-size: 14px;
+}
+
+}
+
+@media (max-width: 480px){
+.blog-content .blog-post .img3{
+	width: 100%;
+	float: none;
+	padding: 0 10%;
+	margin-bottom: 10px;
+}
+
+}
